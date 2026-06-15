@@ -1,0 +1,16 @@
+package org.ycce_a1_sms.student_management_system.Service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+import org.ycce_a1_sms.student_management_system.entity.Student;
+
+@Service
+public interface StudentService
+{
+    List<Student> getAllStudents();
+    Student saveStudent(Student student);
+    Student getStudentById(Integer id);
+    Student updateStudent(Student student);
+    void deleteStudentById(Integer id);
+}

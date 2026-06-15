@@ -1,0 +1,30 @@
+Ddifference bet spring frame work & Spring boot
+
+    Spring FrameWork                                        Spring Boot
+    1) requires manual config                              Auto Config
+    2) More Setup                                          less
+    3) no embedded server                                  embedded server
+    4) Slower Development                                  faster
+
+
+    # Common Annotation :
+        @Components : Creates BEAN
+        @Autowired : inject dependencies
+        @Controller : MVC Controller
+        @RestController : REST API Controller
+        @Service : Service Layer (Model MvC)
+        @Repository - DataBase Layer
+        @SpringBootApplication - main spring boot application
+
+
+        Full Stack java Project
+              1 - Spring MVC
+              2 - Spring ORM
+              3 - Thymleaf
+              4 - jpa repo - Spring data repo is a interface in Spring boot used to perform  database ops
+                    automatically without creating manually.
+
+              5 - JPA - J = java prog
+                        P = Persistence = Storing data Permanantly in database
+                        A = Application prog interface = gives rules Rules /Specificatrion for communication
+
