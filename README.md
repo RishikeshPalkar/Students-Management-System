@@ -112,8 +112,6 @@ StudentManagementSystemApplication.java
 ### Delete Student
 - Remove student records from the database.
 
-### Search Student
-- Find students quickly using search functionality.
 
 ## 📊 Student Information Stored
 
